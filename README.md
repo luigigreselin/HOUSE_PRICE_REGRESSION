@@ -4,4 +4,4 @@ I eliminated first all those variables that had more than 50% empty values, then
 median (to avoid problems created by the outliers). I checked for multicollinearity between numerical variables and eliminated those with and Rsquared above 90%. With the chi 
 square test I checked also the collinearity between categorical variables but the distributions of their levels were highly not uniform so I retained all of them.
 
-Finally I performed a random forest to predict the price with a grid search to optimize the parameters. 
+Finally I performed a random forest to predict the price with a grid search to optimize the parameters. With the random forest I obtained 84% of precision (not on the test dataset). I then created a simple 3hidden layers NN on Keras and performed the analysis. ON a retained tes dataset (30% of my data) I obtained a correlation of 88%. Really good
