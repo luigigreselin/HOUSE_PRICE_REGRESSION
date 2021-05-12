@@ -13,6 +13,7 @@ I compared a number of different approaches from Random Forest (with a grid to r
 
 # Results
 With the random forest I obtained 84% of precision (not on the test dataset). I then created a 3-hidden layers NN on Keras and performed the analysis. On the test dataset (30% of my training data) I obtained a correlation of 88%. Below the scatterplot of my prediction against the true values (on the test dataset).
+
 ![](https://github.com/luigigreselin/HOUSE_PRICE_REGRESSION/blob/main/predicted%20prices%20with%20NN.PNG)
 
 # Data
